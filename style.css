@@ -6,10 +6,86 @@ div {
 .logo {
 	height: 100px;
 	width: 400px;
+	position: relative;
+	left: 550px;
+	top: 200px;
 }
 
 input {
-	width: 25%;
-	height: 34px;
+	width: 35%;
+	height: 40px;
 	font: 16px arial,sans-serif;
+	position: relative;
+	left: 450px;
+	top: 200px;
 }
+
+div a{
+	text-decoration: none;
+	color: #000;
+}
+
+.top-nav-bar {
+	font: 14px arial,sans-serif;
+	color: #000;
+	opacity: .8;
+}
+
+#about {
+	padding: 10px;
+	left: 20px;
+	position: absolute;
+	font: sans-serif;
+}
+
+#store {
+	padding: 10px;
+	left: 100px;
+	position: absolute;
+}
+
+#mail {
+	padding: 10px;
+	left: 1100px;
+	position: absolute;
+}
+
+#images {
+	padding: 10px;
+	left: 1175px;
+	position: absolute;
+}
+
+#apps {
+	padding: 0px 10px 0px 0px;
+	display: inline-block;
+  	height: 23px;
+  	width: 23px;
+  	background-image: url(https://ssl.gstatic.com/gb/images/i1_1967ca6a.png);
+  	background-position: -135px -42px;
+  	position: absolute;
+  	opacity: .55;
+  	left: 1250px;
+  	top: 15px;
+  }
+
+  #notification {
+  	padding: 10px;
+  	display: inline-block;
+  	position: absolute;
+  	left: 1275px;
+  	top: 7px;
+  }
+
+  #email {
+  	display: block;
+  	height: 32px;
+  	width: 32px;
+  	background-image: url(https://lh3.googleusercontent.com/-9ucUjETgB7I/AAAAAAAAAAI/AAAAAAAAAAA/ACevoQPaskOveDWPYb-l9vrDEeeDlxvZbw/s32-c-mo/photo.jpg);
+  	border-radius: 100%;
+  	position: absolute;
+  	left: 1320px;
+  	padding: 1px;
+  	opacity: 100%;
+
+  }
