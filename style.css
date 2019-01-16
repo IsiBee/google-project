@@ -18,6 +18,41 @@ input {
 	position: relative;
 	left: 450px;
 	top: 200px;
+	box-shadow:0 2px 2px 0 rgba(0,0,0,0.16),0 0 0 1px rgba(0,0,0,0.08);
+	border-radius: 2px;
+}
+
+.mic {
+	height: 25px;
+	position: relative;
+	top: 207px;
+	left: 408px;
+}
+
+button {
+	line-height: 27px;
+	height: 35;
+	width: 150px;
+	font: arial, sans-serif;
+	position: relative;
+	font-size: 13px;
+	background-color: #f5f5f5; 
+	color: #757575;
+	font-weight: bold;
+	text-align: center;
+	border: 1px solid #f2f2f2;
+	padding: 0 16px;
+	top: 260px;
+}
+
+.search {
+	left: 15px;
+	position: relative;
+}
+
+.luck {
+	left: 25px;
+	position: relative;
 }
 
 div a{
@@ -26,8 +61,7 @@ div a{
 }
 
 .top-nav-bar {
-	font: 14px arial,sans-serif;
-	color: #000;
+	font: 13px arial,sans-serif;
 	opacity: .8;
 }
 
@@ -89,3 +123,46 @@ div a{
   	opacity: 100%;
 
   }
+
+
+  .bottom-nav-bar {
+	font: 13.5px arial,sans-serif;
+	opacity: .7;
+	top: 725px;
+	position: absolute;
+	height: 50px;
+	width: 100%;
+	background-color: #DEDBDB;
+	left: 0px;
+}
+
+
+#advert {
+	padding: 10px;
+	left: 20px;
+	position: absolute;
+}
+
+#business {
+	padding: 10px;
+	left: 120px;
+	position: absolute;
+}
+
+#privacy {
+	padding: 10px;
+	left: 1100px;
+	position: absolute;
+}
+
+#terms {
+	padding: 10px;
+	left: 1200px;
+	position: absolute;
+}
+
+#settings {
+	padding: 10px;
+	left: 1300px;
+	position: absolute;
+}
