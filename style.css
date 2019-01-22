@@ -58,6 +58,12 @@ button {
 	top: 260px;
 }
 
+button:hover {
+	border-style: solid;
+	border-color: #DEDBDB;
+	color: black;
+}
+
 
 .search {
 	left: 15px;
